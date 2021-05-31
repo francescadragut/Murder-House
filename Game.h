@@ -23,8 +23,7 @@ class Game {
             int getKeyh();
     };
     
-    class Killer
-    {
+    class Killer{
         int position;
         
         public:
@@ -33,8 +32,7 @@ class Game {
             void setPositionk(int);
     };
 
-    class Player
-    {
+    class Player{
         char* name;
         int position;
         bool key;
